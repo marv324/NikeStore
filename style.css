@@ -1,13 +1,55 @@
+/* background for the website */
+body {
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* this is the navbar */
 .flexbox-container {
+    margin-top: 35px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-end;
-    border: 2px solid red;
+    position: relative;
 }
 .flexbox {
-    border: 2px solid green;
-    width: 100px;
+    height: 35px;
+    width: 150px;
+    font-size: 23px;
     text-align: center;
-    height: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+
+/* search bar */
+.search {
+    padding-top: 12px;
+    text-align: center;
+}
+button {
+    border-radius: 15px;
+    background-color: blueviolet;
+    color: white;
+    width: 120px;
+    height: 25px;
+}
+input {
+    border-radius: 15px;
+    height: 25px;
+    background-color: pink;
+    padding-left: 15px;
+}
+form {
+    width: 340px;
+}
+
+/* nike logo */
+img {
+    position: absolute
+    left: 0;
+    top: 0;
+    width: 400px;
 }
