@@ -12,7 +12,9 @@ body {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-end;
-    position: relative;
+    position: fixed;
+    right: 0;
+    margin-right: 15px;
 }
 .flexbox {
     height: 35px;
@@ -35,6 +37,7 @@ button {
     color: white;
     width: 120px;
     height: 25px;
+    border: 1px solid black;
 }
 input {
     border-radius: 15px;
@@ -45,11 +48,22 @@ input {
 form {
     width: 340px;
 }
-
-/* nike logo */
+/* nike sign */
 img {
-    position: absolute
-    left: 0;
+    position: fixed;
     top: 0;
-    width: 400px;
+    margin-left: 100px;
+    height: 160px;
+    width: 160px;
+    transform: rotate(-5deg);
+}
+
+/* main section */
+.main {
+    border: 2px solid white;
+    height: 420px;
+    width:  1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
 }
