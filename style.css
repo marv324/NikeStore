@@ -12,8 +12,6 @@ body {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: flex-end;
-    position: fixed;
-    right: 0;
     margin-right: 15px;
 }
 .flexbox {
@@ -59,11 +57,13 @@ img {
 }
 
 /* main section */
-.main {
-    border: 2px solid white;
-    height: 420px;
-    width:  1000px;
-    margin-right: auto;
+#main {
+    height: 70vh;
+    width: 80vw;
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid blueviolet;
     margin-left: auto;
-    display: block;
+    margin-right: auto;
+    margin-top: 13vh;
 }
